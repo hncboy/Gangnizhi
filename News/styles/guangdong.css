@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+/*main begin*/
+.main {
+	padding-top: 50px;
+	width: 1200px;
+	height: 900px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+.main .hongkong a,.media a,.guangdong a {
+	text-decoration: none;
+	color: #fff;
+	display:block;
+	padding-top: 8px;
+}
+.main .guangdong a {
+	height: 32px;
+	text-align: center;
+	background-color: #E4EB00;
+	color: red;
+}
+.main .hongkong a,.media a {
+	height: 32px;
+	text-align: center;
+	background-color: #05113b;
+	color: #fff;
+}
+.main .hongkong a:hover,.media a:hover,.guangdong a:hover{
+	height: 32px;
+	text-align: center;
+	background-color: #E4EB00;
+	color: red;
+}
+.main .neirong_3 {
+	width: 1200px;
+	position: absolute;
+	top: 300px;
+	color: #000;
+}
+.main .neirong_3 .duan {
+	height: 600px;
+	width: 1000px;
+	position: absolute;
+	left: 250px;
+	line-height: 30px;
+}
+.main .neirong_3 .one {
+	background: url(../images/one.jpeg) no-repeat;
+	position: absolute;
+	height: 500px;
+	left: 60px;
+}
+.main .neirong_3 .one,.two,.three p {
+	padding-left: 250px;
+}
+.main .neirong_3 .two {
+	background: url(../images/two.jpeg) no-repeat;
+	position: absolute;
+	height: 500px;
+	left: 60px;
+	top: 200px;
+}
+.main .neirong_3 .three {
+	background: url(../images/three.jpeg) no-repeat;
+	position: absolute;
+	height: 500px;
+	left: 60px;
+	top: 400px;
+}
+.main .neirong_3 a {
+	text-decoration: none;
+	color: #05113a;
+}
+.main .neirong_3 a:hover {
+	text-decoration: underline;
+	color: #E4EB00;
+}
+hr {
+	margin: auto;
+	width: 90%;
+}
+.hr_1 {
+	margin-top: 320px;
+}
+.hr_2 {
+	margin-top: 200px;
+}
+.hr_3 {
+	margin-top: 200px;
+}
+/*main end*/

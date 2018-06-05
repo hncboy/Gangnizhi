@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*main begin*/
+.main {
+	padding-top: 50px;
+	width: 1200px;
+	height: 800px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+.main .media a {
+	height: 32px;
+	text-align: center;
+	background-color: #E4EB00;
+	color: red;
+}
+.main .hongkong a,.media a,.guangdong a {
+	text-decoration: none;
+	color: #fff;
+	display:block;
+	padding-top: 8px;
+}
+
+.main .hongkong a,.guangdong a {
+	height: 32px;
+	text-align: center;
+	background-color: #05113b;
+}
+.main .hongkong a:hover, .media a:hover, .guangdong a:hover {
+	height: 32px;
+	text-align: center;
+	background-color: #E4EB00;
+	color: red;
+}
+.main .neirong_2 {
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	top: 300px;
+	left: 250px;
+	color: #000;
+	line-height: 30px;
+}
+.main .neirong_2 a {
+	text-decoration: none;
+	color: #05113a;
+}
+.main .neirong_2 a:hover {
+	text-decoration: underline;
+	color: #E4EB00;
+}
+
+/*main end*/

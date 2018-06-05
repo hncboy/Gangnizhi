@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************\
+*       线下课程       *
+\*********************/
+
+/* offline */
+
+.offline {
+  min-width: 1200px;
+  height: 312px;
+  background: #05113a;
+  text-align: center;
+  padding-top: 70px;
+  position: relative;
+}
+.offline header {
+  width: 555px;
+  height: 95px;
+  background: #fff;
+  border-radius: 48px;
+  margin: 0 auto 0;
+  box-sizing: border-box;
+  padding: 20px 0 0 35px;
+}
+.offline p {
+  margin-top: 10px;
+  text-align: center;
+  color: #999;
+}
+.offline ul {
+  margin: 70px auto 0;
+  width: 960px;
+}
+.offline ul li {
+  width: 291px;
+  height: 251px;
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 40px;
+  position: relative;
+  -webkit-perspective: 230px;
+}
+.offline ul li:last-child {
+  margin-right: 0;
+}
+.offline ul li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-backface-visibility: hidden;
+  transition: all 0.5s ease-in 0s;
+}
+.offline ul li img.fan {
+  -webkit-transform: rotateX(-180deg);
+}
+.offline ul li:hover img.fan {
+  -webkit-transform: rotateX(0deg);
+}
+.offline ul li:hover img.zheng {
+  -webkit-transform: rotateX(180deg);
+}
+
+/* offline */

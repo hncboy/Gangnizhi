@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* text begin */
+.text {
+  width: 1200px;
+  margin: 0 auto;
+  color: #000;
+  text-indent: 2em;
+  background-color: #fff;
+}
+.text h2 {
+  padding-left: 500px;
+}
+.prev, .next {
+  display: inline;
+}
+.prev a, .next a, .prev a:visited, .next a:visited {
+  text-decoration: none;
+  color: #0000CD;
+}
+.prev a:hover, .next a:hover {
+  text-decoration: underline;
+  color: #999;
+}
+.bg {
+	width: 1200px;
+	height: 700px;
+  background-color: #fff;
+  color: #000;
+  margin: 0 auto;
+}
+/* text end */
+/* register begin */
+form {
+	width: 700px;
+  padding-left: 300px;
+}
+h2 {
+  padding-left: 125px;
+}
+.bg p {
+  line-height: 50px;
+}
+.bg p span {
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+	padding-right: 10px;
+}
+p input {
+	width: 200px;
+	height: 18px;
+	border: 1px solid #d4cdba;
+  padding: 2px;  /*设置输入框与输入内容之间拉开一些距离*/
+}
+.lucky input {
+	width: 100px;
+	height: 24px;
+}
+.btn input {        /*设置两个按钮的宽高、边距及边框样式*/
+	width: 100px;
+	height: 40px;
+	background: #93b518;
+	border-radius: 3px;     /*设置圆角边框*/
+	font-size: 18px;
+	color: #fff;
+}
+.btn {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+/* register begin */
+/* log on begin */
+.log {
+  padding-top: 100px;
+}
+.bg2 {
+	height: 500px;
+}
+.num, .pass {
+  width: 152px;
+  height: 18px;
+  border: 1px solid #38a1bf;
+  padding: 2px 2px 2px 22px;
+}
+.num {
+  background: url(../images/1.jpg) no-repeat 5px center #fff;
+  color: #999;
+}
+.pass {
+  background: url(../images/2.jpg) no-repeat 5px center #fff;
+}
+.btn01, .btn02 {
+  width: 60px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid #6b5d50;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.btn01 {
+  background: #3bb7ea;
+}
+.btn02 {
+  background: #fb8c16;
+}
+/* log on end */

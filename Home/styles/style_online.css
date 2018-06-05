@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************\
+*       线上课程        *
+\*********************/
+
+/* online */
+
+.online {
+  min-width: 1200px;
+  height: 530px;
+  background: #fff;
+  text-align: center;
+  position: relative;
+}
+.online header {
+  width: 385px;
+  height: 95px;
+  border-radius: 48px;
+  margin:70px auto 0;
+  box-sizing: border-box;
+  padding: 22px 0 0 30px;
+}
+.online p {
+  margin-top: 10px;
+  text-align: center;
+  color: #999;
+}
+.online ul {
+  margin: 70px auto 0;
+  width: 960px;
+}
+.online ul {
+  color:#fff;
+}
+.online ul li {
+  width: 318px;
+  height: 226px;
+  background: url(../images/one_to_one.jpg) 0 0 no-repeat;
+  float: left;
+  margin-right: 0%;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.online ul li:nth-child(2) {
+  background-image: url(../images/one_to_two.jpg);
+}
+.online ul li:nth-child(3) {
+  margin-right: 0;
+  background-image: url(../images/one_to_many.jpg);
+}
+.online ul li hgroup {
+  position: absolute;
+  left: 0;
+  top: -250px;
+  width: 300px;
+  height: 213px;
+  background: rgba(0,0,0,0.5);
+  transition: all 0.5s ease-in 0s;
+}
+.online ul li:hover hgroup {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.online ul li hgroup h2:nth-child(4) {
+  width: 100px;
+  height: 30px;
+  margin-left: 100px;
+  margin-top: 90px;
+  background: url(../images/anniu.png) 0 0 no-repeat;
+}
+.online ul a {
+  text-decoration: none;
+  color: #fff;
+}
+.online ul a:hover {
+  color: #999;
+}
+/* online */

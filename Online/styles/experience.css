@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+/* tag1 begin */
+.line_box {
+  margin: 0 auto;
+  width: 1200px;
+  cursor: default;
+}
+.line_box div {
+  height: 60px;
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  background-color: #05113a;
+}
+.line_box h3 {
+  font-size: 18px;
+  padding-top: 16px;
+  text-align: center;
+}
+.line_box hr {
+  border: 1px  #05113a solid;
+}
+.line_box span:first-of-type {
+  position: relative;
+  top: 10px;
+  right: 2px;
+  color: #05113a;
+}
+.line_box span:last-of-type {
+  position: relative;
+  bottom: 13px;
+  left: 1192px;
+  color: #05113a;
+}
+/* tag1 end */
+/* main begin */
+.text {
+  width: 1100px;
+  height: 200px;
+  margin: 0 auto;
+  color: #000;
+}
+.text h2 {
+  text-align: center;
+  color: #05113a;
+}
+/* main end */

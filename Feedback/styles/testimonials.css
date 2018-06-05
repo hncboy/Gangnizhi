@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+/* testimonials begin */
+.testimonials {
+  min-width: 1200px;
+  height: 2250px;
+  position: relative;
+}
+.testimonials header {
+  width: 385px;
+  height: 95px;
+  border-radius: 48px;
+  margin:30px auto 0;
+  box-sizing: border-box;
+  padding: 20px 0 0 10px;
+}
+.testimonials .tes {
+	height: 1400px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.testimonials a {
+	color: #fff;
+}
+.testimonials .tes .one {
+	position: absolute;
+	top: 50px;
+	left: 550px;
+}
+.testimonials .tes .two {
+	position: absolute;
+	top: 400px;
+	left: 550px;
+}
+.testimonials .tes .three {
+	position: absolute;
+	top: 750px;
+	left: 550px;
+}
+.testimonials .tes .four {
+	position: absolute;
+	top: 1100px;
+	left: 550px;
+}
+.testimonials .tes .five {
+	position: absolute;
+	top: 1450px;
+	left: 550px;
+}
+.testimonials .tes .six {
+	position: absolute;
+	top: 1800px;
+	left: 550px;
+}
+.testimonials .tes .pic_1 {
+	width: 300px;
+	height: 300px;
+	background: url(../images/tes1.jpg) no-repeat;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+.testimonials .tes .pic_2 {
+	width: 300px;
+	height: 300px;
+	background: url(../images/tes2.jpg) no-repeat;
+	position: absolute;
+	left: 100px;
+	top: 400px;
+}
+.testimonials .tes .pic_3 {
+	width: 300px;
+	height: 300px;
+	background: url(../images/tes3.jpg) no-repeat;
+	position: absolute;
+	left: 100px;
+	top: 750px;
+}
+.testimonials .tes .pic_4 {
+	width: 300px;
+	height: 300px;
+	background: url(../images/tes4.jpg) no-repeat;
+	position: absolute;
+	left: 100px;
+	top: 1100px;
+}
+.testimonials .tes .pic_5 {
+	width: 300px;
+	height: 300px;
+	background: url(../images/tes5.jpg) no-repeat;
+	position: absolute;
+	left: 100px;
+	top: 1450px;
+}
+.testimonials .tes .pic_6 {
+	width: 300px;
+	height: 300px;
+	background: url(../images/tes6.jpg) no-repeat;
+	position: absolute;
+	left: 100px;
+	top: 1800px;
+}
+.testimonials .tes .text_1 {
+	text-decoration: underline;
+	font-size: 25px;
+	color: #999;
+}
+.testimonials .tes .text_2 {
+	font-size: 15px;
+	color: #999;
+}
+.testimonials .tes .text_3 {
+	font-size: 15px;
+	color: #999;
+}
+/* testimonials end */

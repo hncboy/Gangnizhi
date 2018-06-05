@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* tag begin */
+.line_box {
+  margin: 0 auto;
+  width: 1200px;
+  cursor: default;
+}
+.line_box div {
+  height: 60px;
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  background-color: #05113a;
+}
+.line_box h3 {
+  font-size: 18px;
+  padding-top: 16px;
+  text-align: center;
+}
+.line_box span:first-of-type {
+  position: relative;
+  top: 10px;
+  right: 1px;
+  cursor: default;
+}
+.line_box span:last-of-type {
+  position: relative;
+  bottom: 13px;
+  left: 1191px;
+  cursor: default;
+}
+/* tag end */
+/* main begin */
+.star_character {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  padding-right: 70px;
+  line-height: 50px;
+}
+.star_pic1, .star_pic5, .star_pic9 {
+  position: relative;
+  left: 654px;
+  bottom: 5px;
+}
+ .star_pic2, .star_pic6, .star_pic10 {
+   position: relative;
+   left: 75px;
+   bottom: 5px;
+}
+.star_pic3, .star_pic7 {
+  position: relative;
+  top: 100px;
+  right: 329px;
+}
+.star_pic4, .star_pic8 {
+  position: relative;
+  top: 100px;
+  right: 199px;
+}
+.star_character img:hover {
+  animation-name: starchange;
+  animation-duration: 1s;
+  transform: scale(1.50)
+}
+@keyframes starchange {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1.50);
+  }
+}
+
+/* main end */

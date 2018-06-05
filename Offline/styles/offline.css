@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+.courses .first/*您可以在以下城市进行线下港式粤语课程学习部分*/
+{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+	color: #fff;
+	position: relative;
+}
+.courses .first .zero{
+	position: absolute;
+	left: 50px;
+}
+.courses .first span{
+	font-size: 30px;
+}
+.courses .first .one{
+	font-size: 30px;
+	position: absolute;
+	top: 80px;
+	left: 280px;
+	color: #fff;
+}
+.courses .first .two{
+	color: #fff;
+	position: absolute;
+	top: 120px;
+	left: 400px;
+}
+.courses .city/*城市背景部分*/
+{
+	height: 445px;
+	width: 1200px;
+	margin: 0 auto;
+	background: url(../images/city.png) no-repeat;
+	position: relative;
+}
+.courses .city a{
+	display:block;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 55px;
+	padding-top: 10px;
+	text-decoration: none;
+}
+.courses .city .shanghai,.city .beijing{
+	width: 170px;
+	height: 65px;
+	top: 200px;
+	background-color: #0041F4;
+	border-radius:10px;
+}
+.courses .city .shanghai{
+	font-size: 15px;
+	position: absolute;
+	left: 245px;	
+}
+.courses .city .beijing{
+	position: absolute;
+	left: 813px;
+}
+.courses .city a:hover{
+	height: 55px;
+	background-color: #E4EB00;
+	color: red;
+	border-radius:10px;
+}
+.courses .we/*我们为您开设以下港式粤语课程部分*/
+{
+	width: 1200px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}
+.courses .we .three{
+	font-size: 30px;
+	padding-top: 310px;
+}
+.courses .we .four{
+	padding-top: 20px;
+}
+.courses .middle/*中间长条部分*/
+{
+	height: 1400px;
+	width: 1200px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+.courses .middle .one/*四个文字段落*/
+{ 
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+.courses .middle .two{
+	position: absolute;
+	top: 400px;
+	left: 700px;
+}
+.courses .middle .three{
+	position: absolute;
+	top: 750px;
+	left: 100px;
+}
+.courses .middle .four{
+	position: absolute;
+	top: 1000px;
+	left: 700px;
+}
+.courses .middle .box_1/*四个图片*/
+{
+	width: 271px;
+	height: 198px;
+	position: absolute;
+	left: 750px;
+	top: 100px;
+}
+.courses .middle .box_2{
+	width: 271px;
+	height: 198px;
+	position: absolute;
+	left: 100px;
+	top: 450px;
+}
+.courses .middle .box_3{
+	width: 271px;
+	height: 198px;
+	position: absolute;
+	left: 750px;
+	top: 750px;
+}
+.courses .middle .box_4{
+	width: 271px;
+	height: 198px;
+	position: absolute;
+	left: 100px;
+	top: 1075px;
+}
+.courses .middle .text_1 { /*四个段落三种字体大小*/
+	font-size: 30px;
+	color: #05113a;
+}
+.courses .middle .text_2 {
+	font-size: 20px;
+	color: #05113a;
+}
+.courses .middle .text_3 {
+	font-size: 15px;
+	color: #000;
+}
+.courses .more { /*更多精彩课程尽在『港你知』！部分*/
+	height: 120px;
+	width: 1200px;
+	background-color: #fff;
+	text-align: center;
+	color: #05113a;
+	font-size: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+.courses .more .text {
+  height: 60px;
+	width: 140px;
+	background-color: #0041F4;
+	position: absolute;
+	bottom: 10px;
+	left: 520px;
+}
+.courses .more .text a {
+	text-decoration: none;
+	color: #fff;
+}
+.courses .more .text p {
+	padding-top: 10px;
+}
+.courses .more .text a:hover {
+	padding: 10px;
+	background-color: #E4EB00;
+	color: red;
+}
+/* middle end */

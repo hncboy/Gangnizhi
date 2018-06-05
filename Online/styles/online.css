@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* tag1 begin */
+.line_box {
+  margin: 0 auto;
+  width: 1200px;
+  cursor: default;
+}
+.line_box div {
+  height: 60px;
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  background-color: #05113a;
+}
+.line_box h3 {
+  font-size: 18px;
+  padding-top: 16px;
+  text-align: center;
+}
+.line_box span:first-of-type {
+  position: relative;
+  top: 10px;
+  right: 1px;
+}
+.line_box span:last-of-type {
+  position: relative;
+  bottom: 13px;
+  left: 1191px;
+}
+/* tag1 end */
+/* online courses begin */
+.ellipse {
+  width: 1180px;
+  height: 590px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 590px/290px;
+  opacity: 0.2;
+}
+.ellipse_box {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 410px;
+}
+.ellipse_box img:hover {
+  animation-name: change1;
+  animation-duration: 1s;
+  transform: scale(0.75)
+}
+@keyframes change1 {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.text a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  top: 30px;
+}
+.text a:hover {
+  color: #05113a;
+  text-decoration: none;
+}
+.text1 {
+  position: relative;
+  left: 180px;
+}
+.text2 {
+  position: relative;
+  left: 460px;
+}
+.text3 {
+  position: relative;
+  left: 750px;
+}
+.text a p {
+  font-size: 18px;
+}
+.pic1 {
+  position: relative;
+  left: 70px;
+}
+.pic2 {
+  position: relative;
+  left: 120px;
+}
+.pic3 {
+  position: relative;
+  left: 170px;
+}
+/* online courese end */
+/* tag2 begin */
+.experience {
+  margin: 0 auto;
+  width: 200px;
+  height: 60px;
+  background-color: #05113a;
+  border-radius: 200px/200px;
+  position: relative;
+  bottom: 100px;
+}
+.experience h2 {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 12px;
+}
+/* tag2 end */
+/* experience begin */
+.rectangle {
+  width: 1180px;
+  height: 450px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+  opacity: 0.2;
+}
+.rectangle_box {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 380px;
+}
+.text4 {
+  position: relative;
+  left: 170px;
+}
+.text5 {
+  position: relative;
+  left: 450px;
+}
+.text6 {
+  position: relative;
+  left: 695px;
+}
+.rectangle_box img:hover {
+  animation-name: change2;
+  animation-duration: 1s;
+  transform: scale(1.25)
+}
+@keyframes change2 {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+/* experience end */
